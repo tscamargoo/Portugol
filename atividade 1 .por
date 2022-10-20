@@ -1,0 +1,15 @@
+programa {
+  inclua biblioteca Matematica
+  funcao inicio() {
+
+    real salario, abono,novoSalario
+
+    escreva("Digite o salário: ")
+    leia(salario)
+
+    escreva("Digite o abono: ")
+    leia(abono)
+
+    escreva("\n","Novo Salário é",novoSalario," = ", salario + abono )
+  }
+}
